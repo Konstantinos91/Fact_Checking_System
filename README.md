@@ -1,0 +1,2 @@
+# Fact_Checking_System
+A fact checking system which covers facts relating to any credited persons involved with the user's typed or pasted claim sentence related to a film or television (F&amp;T) release or F&amp;T title, including their credited role (such as a director or an actor, for example). It also covers key dates relating to both these individuals (for example their date of birth) and the release of the title itself. A possible claim for example could be “Robert Downey Jr. starred in Iron Man”. 
