@@ -1,0 +1,34 @@
+The following instructions detail the standard installation procedure for the software product.
+---------------------------------------------------------------------------------------------
+Prerequisites: 
+•	Python 3.6
+•	PIP Package Manager
+•	Administrator Privileges (Windows) / Root or sudo access (*nix)
+
+Instructions:
+In an elevated command prompt (admin permissions)/root terminal:
+pip install spacy
+pip install nltk
+python -m spacy download en
+ 
+Now run python in interactive mode and enter the following commands at the prompt:
+>>> import nltk
+>>> nltk.download(“stopwords”)
+>>> nltk.download(“wordnet”)
+ 
+The required Python packages have now been successfully installed.
+
+Before running the software product, you will need to initialise the SQLite3 database.
+*Please ensure you have *3GB* disk space available in the local directory
+*Please ensure you have a reasonable bandwidth internet connection, as the data will be imported from an external source
+
+To build the database - execute, in a command prompt or terminal:
+python refreshdb.py
+
+The database may take several minutes to build, depending on the bandwidth of your connection
+
+To run the software product simply execute, in a command prompt or terminal:
+python GUI.py
+
+*Please note that you may experience slow reponse on your first interaction with the product
+*as the database is not yet cached in local memory
